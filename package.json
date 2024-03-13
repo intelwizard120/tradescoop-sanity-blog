@@ -6,7 +6,6 @@
     "build:web": "next build",
     "dev": "next",
     "fmt": "prettier --ignore-path .gitignore --write --cache .",
-    "postinstall": "(cd studio && npx @sanity/cli install)",
     "start:sanity": "npm --prefix studio run start",
     "start:web": "next start"
   },
