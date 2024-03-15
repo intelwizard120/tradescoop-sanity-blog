@@ -3,7 +3,7 @@ import Container from './container'
 
 export default function Footer() {
   return (
-    <Container>
+    <Container className="pt-16">
       <Link href="https://tradescopp.io">
         <img src="/static/logo-dark.png" />
       </Link>
@@ -33,7 +33,34 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-      
+      <hr />
+      <div className="text-sm">
+        <p className="mt-12 ft-light">
+          By continuing to use this site and its information, products, and/or services, you consent to
+          our <strong><a href="https://tradescoop.io/terms-and-conditions" class="underline">terms and conditions</a></strong>.
+          Please note that if you do not agree with the terms and conditions of this site, you may not use 
+          any of our services and you must leave the website immediately.
+        </p>
+        <p className="mt-8 ft-light">
+          Tradescoop LLC., and its website at www.tradescoop.io are not regulated entities, nor are the contents, 
+          publications, and opinions associated with these entities regulated by a U.S. regulatory agency. We do not 
+          make recommondations or offer investment, tax or legal advice. You alone are responsible for evaluating the 
+          merits and risks associated with the use of our systems, services and securities and investment products and services.
+        </p>
+        <p className="mt-8 ft-light">
+          Trading involves a substantial degree of risk and may not be suitable for all investors. Past performance does 
+          not predict future results. Tradescoop relays notifications that traders send out about their trading ideas and 
+          does not endorse their content in any way, or warrant in any way that a given trading idea will be profitable. 
+          Tradescoop is not a licensed Financial Advisory. This is neither a solicitation nor an offer to Buy/Sell any securities.
+          No representation is being made that any account will or is likely to achieve profits or losses similar to those shown on this website.
+        </p>
+        <p className="mt-8 mb-12 ft-light">
+          Tradescoop does not provide or guarantee any financial, legal tax, or accounting advice or advise regarding the suitability, 
+          profitability or potential value of any particular security, trading strategy, or information source. By accessing our content, 
+          you agree to receive special updates, offers, and advertisements from Tradescoop and to be bound by
+          the <strong><a href="https://tradescoop.io/terms-and-conditions" class="underline">Terms of service</a></strong>.
+        </p>
+      </div>
     </Container>
   )
 }

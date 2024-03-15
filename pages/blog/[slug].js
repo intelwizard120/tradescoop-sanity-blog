@@ -22,34 +22,43 @@ export default function Post({ post, morePosts, preview }) {
   return (
     <Layout preview={preview}>
       <Header />
-      <Container className="mt-8">
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article>
-              <Head>
-                <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
-                </title>
-                {/* <meta property="og:image" content={post.ogImage.url} /> */}
-              </Head>
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
-              />
-              <PostBody content={post.body} />
-            </article>
+      <Container className="md:mt-8 pb-16">
+        <div className="flex flex-col-reverse md:block">
+          <div className="mt-16 w-full md:sticky md:top-36 md:mt-0 md:w-1/3 md:float-right md:pl-8 lg:pl-16 ">
+            <img src="/static/ad.jpg" />
+            <h3 className="mt-8 ft-bold text-3xl">
+              SIGN UP Get Your Free Action Guide: "Understanding Day Trading!!!
+            </h3>
+          </div>
+          <div className="w-full mt-8 md:w-2/3">
+            {router.isFallback ? (
+              <PostTitle>Loading…</PostTitle>
+            ) : (
+              <>
+                <article>
+                  <Head>
+                    <title>
+                      {post.title} | Next.js Blog Example with {CMS_NAME}
+                    </title>
+                    {/* <meta property="og:image" content={post.ogImage.url} /> */}
+                  </Head>
+                  <PostHeader
+                    title={post.title}
+                    coverImage={post.coverImage}
+                    date={post.date}
+                    author={post.author}
+                  />
+                  <PostBody content={post.body} />
+                </article>
 
-            <Comments comments={post.comments} />
-            <Form _id={post._id} />
-
-            <SectionSeparator />
-            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-          </>
-        )}
+                <Comments comments={post.comments} />
+                <Form _id={post._id} />
+              </>
+            )}
+          </div>
+        </div>        
+        <SectionSeparator />
+        {morePosts.length > 0 && <MoreStories posts={morePosts} caption={true} />}
       </Container>
     </Layout>
   )
