@@ -11,7 +11,7 @@ export default function HeroPost({
   slug,
 }) {
   return (
-    <section class="mb-8 relative sm:mx-0">  
+    <section className="mb-8 relative sm:mx-0">  
       <CoverImage
         slug={slug}
         title={title}

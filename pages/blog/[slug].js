@@ -26,7 +26,7 @@ export default function Post({ post, morePosts, preview }) {
         <div className="flex flex-col-reverse md:block">
           <div className="mt-16 w-full md:sticky md:top-36 md:mt-0 md:w-1/3 md:float-right md:pl-8 lg:pl-16 ">
             <img src="/static/ad.jpg" />
-            <h3 className="mt-8 ft-bold text-3xl">
+            <h3 className="mt-8 ft-bold text-3xl sm:text-4xl md:text-2xl xl:text-3xl">
               SIGN UP Get Your Free Action Guide: "Understanding Day Trading!!!
             </h3>
           </div>

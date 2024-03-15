@@ -37,7 +37,7 @@ export default function Footer() {
       <div className="text-sm">
         <p className="mt-12 ft-light">
           By continuing to use this site and its information, products, and/or services, you consent to
-          our <strong><a href="https://tradescoop.io/terms-and-conditions" class="underline">terms and conditions</a></strong>.
+          our <strong><a href="https://tradescoop.io/terms-and-conditions" className="underline">terms and conditions</a></strong>.
           Please note that if you do not agree with the terms and conditions of this site, you may not use 
           any of our services and you must leave the website immediately.
         </p>
@@ -58,7 +58,7 @@ export default function Footer() {
           Tradescoop does not provide or guarantee any financial, legal tax, or accounting advice or advise regarding the suitability, 
           profitability or potential value of any particular security, trading strategy, or information source. By accessing our content, 
           you agree to receive special updates, offers, and advertisements from Tradescoop and to be bound by
-          the <strong><a href="https://tradescoop.io/terms-and-conditions" class="underline">Terms of service</a></strong>.
+          the <strong><a href="https://tradescoop.io/terms-and-conditions" className="underline">Terms of service</a></strong>.
         </p>
       </div>
     </Container>
