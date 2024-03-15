@@ -58,7 +58,7 @@ export default function Post({ post, morePosts, preview }) {
           </div>
         </div>        
         <SectionSeparator />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} caption={true} />}
+        {morePosts && morePosts.length > 0 && <MoreStories posts={morePosts} caption={true} />}
       </Container>
     </Layout>
   )
