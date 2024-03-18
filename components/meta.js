@@ -20,6 +20,14 @@ export default function Meta() {
         name="description"
         content={`Dynamic Blog App built by Next.js & Sanity CMS`}
       />
+      <meta
+        name="og:title"
+        content="Tradescoop Blog App"
+      />
+      <meta
+        name="og:description"
+        content={`Dynamic Blog App built by Next.js & Sanity CMS`}
+      />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
   )

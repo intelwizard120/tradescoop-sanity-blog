@@ -27,7 +27,15 @@ export default function Post({ post, morePosts, preview }) {
           content={post?.meta_title}
         />
         <meta
+          name="og:title"
+          content={post?.meta_title}
+        />
+        <meta
           name="description"
+          content={post?.meta_description}
+        />
+        <meta
+          name="og:description"
           content={post?.meta_description}
         />
       </Head>
