@@ -21,6 +21,16 @@ export default function Post({ post, morePosts, preview }) {
   }
   return (
     <Layout preview={preview}>
+      <Head>
+        <meta
+          name="title"
+          content={post.meta_title}
+        />
+        <meta
+          name="description"
+          content={post.meta_description}
+        />
+      </Head>
       <Header />
       <Container className="md:mt-8 pb-16">
         <div className="flex flex-col-reverse md:block">

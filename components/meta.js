@@ -13,8 +13,12 @@ export default function Meta() {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
+        name="title"
+        content="Tradescoop Blog App"
+      />
+      <meta
         name="description"
-        content={`A statically generated blog example using Next.js and Sanity.io.`}
+        content={`Dynamic Blog App built by Next.js & Sanity CMS`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
