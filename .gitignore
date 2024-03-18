@@ -2,8 +2,6 @@
 node_modules
 # dependencies
 /node_modules
-studio
-/studio/*
 /.pnp
 .pnp.js
 
