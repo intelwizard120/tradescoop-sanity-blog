@@ -24,11 +24,11 @@ export default function Post({ post, morePosts, preview }) {
       <Head>
         <meta
           name="title"
-          content={post.meta_title}
+          content={post?.meta_title}
         />
         <meta
           name="description"
-          content={post.meta_description}
+          content={post?.meta_description}
         />
       </Head>
       <Header />
