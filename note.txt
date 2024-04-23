@@ -1,1 +1,1 @@
-Implement /.env and /studio/.env.development files according to /.env.example file
+To Upgrade Santiy Studio, implement /studio/.env.development file according to /.env.example file
