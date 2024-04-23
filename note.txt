@@ -1,0 +1,1 @@
+implement /.env and /studio/.env.development according to /.env.example
