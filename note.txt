@@ -1,1 +1,1 @@
-implement /.env and /studio/.env.development according to /.env.example
+Implement /.env and /studio/.env.development files according to /.env.example file
