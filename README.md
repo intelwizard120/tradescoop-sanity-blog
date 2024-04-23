@@ -1,4 +1,4 @@
-### Tradescoop Blogs
+### Tradescoop Blogs (Sanity + Next)
 
 ### Running the front-end
 
